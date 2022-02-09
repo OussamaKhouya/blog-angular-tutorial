@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  BASE_API_URL:window.location.protocol + '//' + window.location.host
 };

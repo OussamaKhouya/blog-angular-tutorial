@@ -27,9 +27,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/templatemo-stand-blog.css",
+
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/js/custom.js",
+
+              "src/assets/js/slick.js",
+              "src/assets/js/isotope.js",
+              "src/assets/js/accordions.js"
+            ]
           },
           "configurations": {
             "production": {
