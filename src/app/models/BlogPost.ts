@@ -1,11 +1,11 @@
 export class BlogPost {
-  id: bigint;
-  dateCreated: string;
-  updateUpdate: string;
-  title: string;
-  preview: string;
-  content: string;
-  constructor(id: bigint, dateCreated: string, updateUpdate: string, title: string, preview: string, content: string) {
+  id?: bigint;
+  dateCreated?: string;
+  updateUpdate?: string;
+  title?: string;
+  preview?: string;
+  content?: string;
+  constructor(id?: bigint, dateCreated?: string, updateUpdate?: string, title?: string, preview?: string, content?: string) {
     this.id = id;
     this.dateCreated = dateCreated;
     this.updateUpdate = updateUpdate;
@@ -13,4 +13,5 @@ export class BlogPost {
     this.preview = preview;
     this.content = content;
   }
+
 }
